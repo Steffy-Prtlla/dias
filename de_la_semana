@@ -1,0 +1,106 @@
+<head></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Días de la Semana</title>
+
+    <!--LIBRERIA FONT-AWESOME-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="DataTables/datatables.min.js"></script>
+
+
+
+</head>
+
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          LUNES
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Lunes.</strong> Es el primer día de la semana según el calendario internacional (ISO 8601). Para muchos, es el comienzo de la semana laboral o escolar. En muchas culturas, el lunes se asocia con la vuelta al trabajo después del fin de semana, lo que lo convierte en uno de los días que más cuesta emocionalmente para muchas personas.
+          El nombre "lunes" proviene del latín Lunae dies, que significa "día de la Luna", ya que en varias civilizaciones antiguas los días se asociaban a los astros o deidades.
+          
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          MARTES
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Martes.</strong> Segundo día de la semana. Históricamente, se relaciona con Marte, el dios romano de la guerra, por lo que en muchas lenguas romances, como el español, lleva este nombre.
+          En algunas culturas, como la griega, el martes está asociado a la mala suerte, debido a la caída de Constantinopla, que ocurrió un martes.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          MIERCOLES
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Miércoles.</strong> Tercer día de la semana. Su nombre en español deriva del latín Mercurii dies, en honor al dios romano Mercurio, dios del comercio y los mensajeros.
+          En el calendario laboral, es un punto medio de la semana, por lo que algunas personas lo consideran un día para hacer una "pausa" o para impulsar proyectos que se iniciaron el lunes.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          JUEVES
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Cuarto día de la semana, su nombre viene del latín Iovis dies, que significa "día de Júpiter", dios del trueno y el rayo en la mitología romana.
+            En algunas tradiciones culturales, el jueves es visto como un día de crecimiento y desarrollo personal, ya que está más cerca del fin de semana.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          VIERNES
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Quinto día de la semana y generalmente es el último día laboral para muchas personas. El nombre proviene del latín Veneris dies, en honor a Venus, la diosa romana del amor y la belleza.
+            Es un día muy esperado, ya que marca el inicio del fin de semana en muchas culturas. Se asocia a la relajación y la diversión después de la jornada laboral.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          SABADO
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Sexto día de la semana. Su nombre viene del hebreo Shabbat o "día de descanso". En el cristianismo primitivo, el sábado era el día del descanso o el día santo.
+            Para muchas culturas, es un día dedicado a actividades recreativas o sociales, aunque en algunas religiones, como el judaísmo, es un día sagrado.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            DOMINGO
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Séptimo y último día de la semana en muchas culturas. El nombre "domingo" proviene del latín Dominicus dies, que significa "día del Señor", relacionado con el cristianismo, ya que se conmemora la resurrección de Jesús.
+            Tradicionalmente, es un día de descanso o para actividades familiares. En algunas culturas y religiones, también es un día para la reflexión espiritual o para asistir a servicios religiosos.</div>
+        </div>
+      </div>
+  </div>
